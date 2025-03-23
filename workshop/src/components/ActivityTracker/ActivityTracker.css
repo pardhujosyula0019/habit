@@ -1,0 +1,20 @@
+.activity-tracker {
+    margin-top: 20px;
+}
+
+.activity-grid {
+    display: flex;
+    overflow-x: auto;
+    /* Enable horizontal scrolling for many weeks */
+}
+
+.activity-week {
+    display: flex;
+}
+
+.activity-day {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #fff;
+    margin: 1px;
+}

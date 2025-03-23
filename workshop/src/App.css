@@ -1,0 +1,14 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Ensure the app takes up at least the full viewport height */
+}
+
+.content-container {
+    flex: 1;
+    /* Allow the content to grow and fill the remaining space */
+    padding: 20px;
+    margin-top: 60px;
+    /* Add margin to account for the fixed navbar */
+}

@@ -1,0 +1,16 @@
+.habit-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.habit-list h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.habit-list ul {
+    list-style: none;
+    padding: 0;
+}
